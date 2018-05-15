@@ -1,0 +1,299 @@
+﻿body {
+  background-image: url(/pic/bgrBody.jpg); }
+  body a:hover {
+    text-decoration: none; }
+  body #header .center {
+    font-family: 'Times New Roman'; }
+    body #header .center h4 {
+      font-weight: bold;
+      font-size: 20px;
+      color: #e4101c;
+      padding-top: 15px;
+      font-stretch: condensed; }
+    body #header .center p {
+      font-size: 18px; }
+  body #header .right i {
+    float: left;
+    padding-top: 32px; }
+  body #header .right i {
+    font-size: 40px; }
+  body #header .right p {
+    float: left;
+    padding-top: 30px; }
+  body #header .right .logo2 {
+    margin-top: 30px;
+    float: right; }
+  body #menu {
+    background-image: url(/pic/bgrMenu.jpg);
+    height: 40px; }
+    body #menu .nav {
+      margin-top: 8px; }
+      body #menu .nav ul {
+        float: left;
+        display: flex;
+        -webkit-padding-start: 0; }
+        body #menu .nav ul li {
+          list-style-type: none; }
+          body #menu .nav ul li a {
+            font-size: 14px;
+            font-family: 'Myriad Pro';
+            font-weight: bold;
+            color: #ffffff;
+            text-transform: uppercase;
+            padding: 13px 20px 13px 20px; }
+            body #menu .nav ul li a:hover {
+              background-color: #e4101c; }
+      body #menu .nav .icon {
+        float: right; }
+        body #menu .nav .icon i {
+          padding-right: 20px; }
+  body #banner img {
+    width: 100%; }
+  body #banner .book {
+    background-color: #55a3c8;
+    opacity: 0.8;
+    margin-top: -122px;
+    padding-top: 20px; }
+    body #banner .book .form {
+      height: 103px;
+      padding-right: 10px;
+      width: 20%;
+      float: left; }
+      body #banner .book .form .title {
+        font-family: 'Myriad Pro';
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffffff; }
+      body #banner .book .form select {
+        width: 100%;
+        height: 30px; }
+      body #banner .book .form .search {
+        padding-top: 33px; }
+        body #banner .book .form .search a {
+          padding: 7px 68px 7px 68px;
+          background-color: #25909a;
+          font-family: 'Myriad Pro';
+          font-size: 14px;
+          font-weight: bold;
+          color: #ffffff; }
+  body #body {
+    padding-top: 30px; }
+    body #body .container {
+      background: url(/pic/bgrContainer.jpg) no-repeat; }
+      body #body .container h3 {
+        font-family: 'Myriad Pro';
+        font-size: 30px;
+        color: #54c5d0;
+        text-transform: uppercase;
+        padding-top: 20px; }
+      body #body .container .country {
+        padding-bottom: 30px; }
+        body #body .container .country p {
+          font-size: 15px;
+          font-family: 'Times New Roman';
+          line-height: 24px;
+          padding-bottom: 10px; }
+        body #body .container .country img {
+          width: 100%; }
+      body #body .container .tour {
+        padding-top: 55px;
+        height: 100%;
+        padding-bottom: 30px; }
+        body #body .container .tour .slick-next:before {
+          content: "\f054";
+          font-size: 20px;
+          color: #ffffff;
+          font: normal normal normal 14px/1 FontAwesome; }
+        body #body .container .tour .slick-next {
+          top: -50px;
+          right: 1px;
+          background-color: #808080; }
+          body #body .container .tour .slick-next:hover {
+            background-color: #000000; }
+        body #body .container .tour .slick-prev:before {
+          content: "\f053";
+          font-size: 20px;
+          color: #ffffff;
+          font: normal normal normal 14px/1 FontAwesome; }
+        body #body .container .tour .slick-prev {
+          top: -50px;
+          left: 1097px;
+          z-index: 999;
+          background-color: #808080; }
+          body #body .container .tour .slick-prev:hover {
+            background-color: #000000; }
+        body #body .container .tour h3 {
+          padding-top: 0;
+          padding-bottom: 25px; }
+        body #body .container .tour .item {
+          text-align: center; }
+          body #body .container .tour .item img {
+            margin-left: 16%; }
+          body #body .container .tour .item p {
+            text-align: center; }
+      body #body .container .tourGuide {
+        padding-top: 30px;
+        height: 100%; }
+        body #body .container .tourGuide .item .khungAnh:before {
+          padding-bottom: 0; }
+        body #body .container .tourGuide .item .khungAnh {
+          height: 355px; }
+          body #body .container .tourGuide .item .khungAnh .khungAnhCrop {
+            width: 340px;
+            height: 300px; }
+            body #body .container .tourGuide .item .khungAnh .khungAnhCrop .title {
+              text-align: center;
+              z-index: 999999;
+              position: absolute;
+              width: 100%;
+              bottom: 0; }
+              body #body .container .tourGuide .item .khungAnh .khungAnhCrop .title a {
+                color: #ffffff;
+                font-family: 'Myriad Pro';
+                font-size: 22px; }
+              body #body .container .tourGuide .item .khungAnh .khungAnhCrop .title p {
+                color: #ffffff;
+                font-family: 'Myriad Pro';
+                font-size: 13px; }
+          body #body .container .tourGuide .item .khungAnh .curent {
+            width: 732px; }
+      body #body .container .incentour h3 {
+        padding-top: 10px; }
+      body #body .container .incentour .left .title {
+        font-size: 17px;
+        color: #000000;
+        font-family: 'Myriad Pro';
+        padding-bottom: 10px; }
+      body #body .container .incentour .left p {
+        font-size: 15px;
+        text-align: justify;
+        padding-right: 10px; }
+      body #body .container .incentour .left img {
+        padding-bottom: 20px; }
+      body #body .container .incentour .left .dong1 {
+        padding-top: 30px; }
+        body #body .container .incentour .left .dong1 .item img {
+          padding-bottom: 20px; }
+      body #body .container .incentour .left .dong2 {
+        padding-top: 30px; }
+      body #body .container .incentour .right .feelling {
+        background: #f2f2f2;
+        height: 446px;
+        padding-left: 10px; }
+        body #body .container .incentour .right .feelling .slick-prev:before {
+          content: "\f053";
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          color: #808080;
+          font-size: 30px; }
+        body #body .container .incentour .right .feelling .slick-prev {
+          left: 20px;
+          z-index: 9999;
+          top: 100px; }
+        body #body .container .incentour .right .feelling .slick-next:before {
+          content: "\f054";
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          color: #808080;
+          font-size: 30px; }
+        body #body .container .incentour .right .feelling .slick-next {
+          right: 30px;
+          top: 100px; }
+        body #body .container .incentour .right .feelling .list a img {
+          margin-left: 75px; }
+        body #body .container .incentour .right .feelling .list p {
+          font-family: 'Myriad Pro';
+          text-align: center; }
+        body #body .container .incentour .right .feelling .list .name {
+          font-size: 17px;
+          color: #000000;
+          padding-top: 20px; }
+        body #body .container .incentour .right .feelling .list .fa {
+          color: #d6d6d6; }
+      body #body .container .news {
+        padding-top: 20px; }
+        body #body .container .news .item {
+          font-family: 'Myriad Pro'; }
+          body #body .container .news .item .khungAnh:before {
+            padding-bottom: 70%; }
+          body #body .container .news .item .khungAnh {
+            width: 248px; }
+            body #body .container .news .item .khungAnh .khungAnhCrop {
+              width: 248px;
+              height: 166px; }
+              body #body .container .news .item .khungAnh .khungAnhCrop img {
+                width: 100%; }
+          body #body .container .news .item .title {
+            padding-top: 20px;
+            padding-bottom: 10px; }
+            body #body .container .news .item .title a {
+              font-size: 16px;
+              color: #000000;
+              font-weight: bold; }
+  body #footer {
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding-top: 30px; }
+    body #footer .top {
+      padding-bottom: 40px; }
+      body #footer .top .item {
+        font-family: 'Myriad Pro'; }
+        body #footer .top .item h4 {
+          font-size: 16px;
+          color: #0e81fe; }
+        body #footer .top .item ul {
+          list-style-type: none;
+          -webkit-padding-start: 0; }
+          body #footer .top .item ul li a {
+            font-size: 15px;
+            color: #b0b0b0; }
+        body #footer .top .item .connect {
+          /*height:20px; 
+                width:20px;
+                border:1px solid #808080;
+                border-radius:50%;*/
+          float: left;
+          padding-left: 10px; }
+          body #footer .top .item .connect a {
+            text-align: center;
+            color: #808080;
+            border: 1px solid #808080;
+            border-radius: 50%; }
+            body #footer .top .item .connect a:hover {
+              color: #0e81fe; }
+          body #footer .top .item .connect .fa-facebook {
+            padding: 14px 18px 14px 18px; }
+          body #footer .top .item .connect .fa-youtube {
+            padding: 13px 16px 15px 16px; }
+          body #footer .top .item .connect .fa-google-plus {
+            padding: 13px 12px 15px 14px; }
+          body #footer .top .item .connect .fa-skype {
+            padding: 15px 16px 14px 16px; }
+    body #footer .bottom .left {
+      padding-top: 30px; }
+    body #footer .bottom .center h3 {
+      font-family: 'Myriad Pro';
+      font-size: 15px;
+      color: #54c5d0;
+      text-transform: uppercase;
+      padding-top: 20px; }
+    body #footer .bottom .center p {
+      font-size: 15px;
+      font-family: 'Myriad Pro'; }
+    body #footer .bottom .right {
+      padding-top: 30px; }
+      body #footer .bottom .right h3 {
+        font-size: 14px;
+        font-family: 'Myriad Pro';
+        font-weight: bold; }
+      body #footer .bottom .right input {
+        border-radius: 16px 0 0 16px;
+        padding-left: 30px; }
+      body #footer .bottom .right a {
+        padding: 4px;
+        border: 1px solid #808080;
+        border-radius: 0 20px 20px 0;
+        background-color: #e4101c; }
+        body #footer .bottom .right a i {
+          color: #fff; }
+
